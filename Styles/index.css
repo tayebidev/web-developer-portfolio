@@ -1,7 +1,7 @@
 nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0 200px;
 }
 
@@ -83,11 +83,10 @@ nav a {
 
 .banner-description {
     margin-bottom: 30px;
-    color: var(--dark-03, #757575);
+    color: #757575;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-
 }
 
 .banner-content {
@@ -99,7 +98,6 @@ main {
     width: 1140px;
     height: 550px;
     margin: 0 auto;
-
 }
 
 main section {
@@ -186,18 +184,18 @@ main section {
     font-weight: 700;
 }
 
-.resume-container{
+.resume-container {
     display: flex;
     gap: 70px;
 }
 
-.resume-container hr{
+.resume-container hr {
     margin: 30px;
 }
 
 .resume-item-title {
     color: #474747;
-    font-size: 25px; 
+    font-size: 25px;
     font-weight: 700;
     margin-bottom: 10px;
 }
@@ -216,12 +214,32 @@ main section {
     font-weight: 400;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
     margin-top: 50px;
+    /* margin-bottom: 113px; */
 }
 
+/* footer style */
+footer {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 230px 200px;
+}
 
+.footer-column {
+    width: 50%;
+}
 
-  
-
+.contact input,
+textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background:#FFF;
+    border: 0;
+}
+.contact input
