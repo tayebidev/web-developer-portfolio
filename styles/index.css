@@ -16,12 +16,18 @@ body {
     font-weight: 700;
     padding: 15px 35px;
 }
+/* header style */
+.header{
+    background-color: #FFF8F3;
+}
 
 /* nav style of header section */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
+
 }
 
 .nav-mary {
@@ -43,4 +49,14 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+/* banner section */
+
+.banner{
+    padding: 30px 30px 30px 200px ;
+    display: flex;
+    align-items: center;
+}
+.banner .banner-pic{
+    width: 584px;
 }
