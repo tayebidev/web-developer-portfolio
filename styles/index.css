@@ -229,3 +229,9 @@ hr{
 .download-cv{
     text-align: center;
 }
+/* footer styles */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 230px;
+}
