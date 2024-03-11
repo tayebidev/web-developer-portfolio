@@ -146,3 +146,9 @@ main {
     font-weight: 700;
     margin-top: 03px;
 }
+/* End about section */
+
+/* <!-- What I do section --> */
+#what-i-do-description{
+    padding: 30px 155px;
+}
